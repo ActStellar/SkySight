@@ -15,7 +15,7 @@
 
 - 日本語フォント
   - **ヘッダー:** Noto Sans Japanese
-  - **本文:** Yu Gothic
+  - **本文:** Noto Serif Japanese
   - **UIボタン:** Noto Sans Japanese
 
 ## レスポンシブ対応
