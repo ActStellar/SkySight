@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Montserrat, Lora, Poppins, Noto_Sans_JP, Noto_Serif_JP } from '@next/font/google'
+import { Montserrat, Lora, Poppins, Noto_Sans_JP, Noto_Serif_JP } from 'next/font/google'
 import Header from './components/Header';
 import Footer from './components/Footer';
 import "@/app/styles/globals.scss";
