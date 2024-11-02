@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import {SpeedInsights} from '@vercel/speed-insights/next'
 import { Montserrat, Lora, Poppins, Noto_Sans_JP, Noto_Serif_JP } from 'next/font/google'
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -49,6 +50,7 @@ export default function RootLayout({
       <body className={`${montserrat.variable} ${lora.variable} ${poppins.variable} ${notoSansJP.variable} ${notoSerifJP.variable}`}>
         <Header />
           <main>{children}</main>
+          <SpeedInsights />
         <Footer />
       </body>
     </html>
