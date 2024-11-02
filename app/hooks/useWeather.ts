@@ -15,7 +15,7 @@ export const useWeather = (location: string) => {
         setCurrentWeather(current);
         setWeeklyForecast(weekly);
       } catch (error: any) {
-        setError('Failed to fetch weather data.');
+        setError(`Failed to fetch weather data: ${error}`);
       } finally {
         setLoading(false);
       }
