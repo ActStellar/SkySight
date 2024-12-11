@@ -14,7 +14,7 @@ const HomePage = () => {
         {loading && <p>Loading...</p>}
         {error && <p>{error}</p>}
         {currentWeather && <Common.WeatherCard weather={currentWeather} />}
-        {weeklyForecast && <Common.Chart forecast={weeklyForecast} />}
+        {/* {weeklyForecast && <Common.Chart forecast={weeklyForecast} />} */}
       </>
   );
 };

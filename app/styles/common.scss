@@ -9,6 +9,18 @@ footer {
     color: #FFFFF0;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main {
+    margin-inline: 30px;
+}
+
 .icon-button {
     background: none;
     border: none;
@@ -29,7 +41,7 @@ footer {
 .search-form {
     display: flex;
     gap: 10px;
-    margin-bottom: 20px;
+    margin-block: 80px;
 }
 
 .search-input {

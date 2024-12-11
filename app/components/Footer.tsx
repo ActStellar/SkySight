@@ -1,5 +1,6 @@
 import React from 'react'
 import '@/app/styles/common.scss'
+import { fontString } from 'chart.js/helpers'
 
 const Footer: React.FC = () => {
   return (
